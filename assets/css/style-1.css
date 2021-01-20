@@ -53,6 +53,9 @@ a:hover {
     margin: 0px auto;
     /*max-width: 1400px;*/
 }
+.content-wrapper h4 {
+    text-align: center;
+}
 h5 {
     font-size: 1.5rem;
     color: #000;
@@ -561,7 +564,7 @@ h5 {
     .img-text-btn-left-broken section div h5 {
         text-align: center;
     }
-    .img-text-btn-left-broken section div figure {
+    .img-text-btn-leftprice__ttl section__ttl-broken section div figure {
         display: block;
         height: 300px;
         margin: 0 -5vw 10px -5vw;
