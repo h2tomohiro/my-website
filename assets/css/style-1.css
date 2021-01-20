@@ -51,10 +51,11 @@ a:hover {
 .content-wrapper {
     width: 90%;
     margin: 0px auto;
-    /*max-width: 1400px;*/
+    max-width: 1400px;
 }
 .content-wrapper h4 {
     text-align: center;
+    font-size: 22px;
 }
 h5 {
     font-size: 1.5rem;
@@ -564,12 +565,22 @@ h5 {
     .img-text-btn-left-broken section div h5 {
         text-align: center;
     }
-    .img-text-btn-leftprice__ttl section__ttl-broken section div figure {
+    .img-text-btn-left-broken section div figure {
         display: block;
         height: 300px;
         margin: 0 -5vw 10px -5vw;
         padding: 0 5vw;
         background: url(../images/dev.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .img-text-btn-right-broken section div figure {
+        display: block;
+        height: 300px;
+        margin: 0 -5vw 10px -5vw;
+        padding: 0 5vw;
+        background: url(../images/consult.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -688,7 +699,7 @@ h5 {
 }
 .img-text-1col h5 {
     text-align: center;
-    margin-bottom: 0;
+    margin: 12px;
 }
 @media screen and (max-width: 767px) {
     .img-text-1col {

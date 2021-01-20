@@ -634,3 +634,7 @@ html, body {
 .about_info {
     text-align: center;
 }
+
+.img-text-btn-right-broken .content-wrapper {
+    margin-top: 80px;
+}
