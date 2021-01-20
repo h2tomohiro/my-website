@@ -50,8 +50,8 @@ a:hover {
 }
 .content-wrapper {
     width: 90%;
-    margin: 0 auto;
-    max-width: 1400px;
+    margin: 0px auto;
+    /*max-width: 1400px;*/
 }
 h5 {
     font-size: 1.5rem;
@@ -1321,10 +1321,11 @@ blockquote {
 .img-text-btn-left-broken > figure {
     width: 70%;
     position: absolute;
-    left: 0;
+    left: 0
+;
     top: 0;
     z-index: 1;
-    background: url(../images/img-text-broken.jpg);
+    background: url(../images/dev.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1376,7 +1377,7 @@ blockquote {
         height: 300px;
         margin: 0 -5vw 10px -5vw;
         padding: 0 5vw;
-        background: url(../images/img-text-broken.jpg);
+        background: url(../images/consult.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -1398,7 +1399,7 @@ blockquote {
     right: 0;
     top: 0;
     z-index: 1;
-    background: url(../images/img-text-broken.jpg);
+    background: url(../images/consult.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1622,6 +1623,9 @@ blockquote {
 .img-text-3col em {
     display: block;
     color: #8c6337;
+}
+.img-text-3col img {
+    height: 550px;
 }
 @media screen and (max-width: 767px) {
     .img-text-3col{
