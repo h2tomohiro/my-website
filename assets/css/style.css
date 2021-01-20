@@ -176,7 +176,7 @@ html, body {
 .header__ttl {
     font-size: 28px;
     letter-spacing: 1px;
-    margin: 0 0 0 32px;
+    margin: 0 0 0 100px;
 }
 @media only screen and (max-width: 767px) {
     .header__ttl {
@@ -186,7 +186,7 @@ html, body {
 }
 
 .gnav {
-    margin: 0 32px 0 auto;
+    margin: 0 100px 0 auto;
 }
 @media only screen and (max-width: 767px) {
     .gnav {
@@ -204,12 +204,12 @@ html, body {
     }
 }
 .gnav__item {
-    margin: 0 16px 0 0;
+    margin: 0 32px 0 0;
     position: relative;
 }
 @media only screen and (max-width: 767px) {
     .gnav__item {
-        margin: 0 16px;
+        margin: 0 12px;
     }
 }
 .gnav__item:last-of-type {
@@ -217,7 +217,7 @@ html, body {
 }
 @media only screen and (max-width: 767px) {
     .gnav__item:last-of-type {
-        margin: 0 16px;
+        margin: 0 10px;
     }
 }
 .gnav__link {
@@ -584,4 +584,10 @@ html, body {
 
 .wrap-video .text .headline{
     font-size:20px;
+}
+
+
+#wrapper{
+    width:100%;
+    overflow-x: hidden !important;
 }
