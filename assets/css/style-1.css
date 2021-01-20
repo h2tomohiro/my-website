@@ -50,8 +50,8 @@ a:hover {
 }
 .content-wrapper {
     width: 90%;
-    margin: 0 auto;
-    max-width: 1400px;
+    margin: 0px auto;
+    /*max-width: 1400px;*/
 }
 h5 {
     font-size: 1.5rem;
@@ -510,7 +510,8 @@ h5 {
 .img-text-btn-left-broken > figure {
     width: 70%;
     position: absolute;
-    left: 0;
+    left: 0
+;
     top: 0;
     z-index: 1;
     background: url(../images/dev.jpg);
