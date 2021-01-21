@@ -744,7 +744,6 @@ h5 {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    /*上下左右中央寄せ*/
     text-align: center; }
     .wrap-video .text p {
       font-size: 80px;
