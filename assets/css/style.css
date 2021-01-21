@@ -19,9 +19,9 @@ time, mark, audio, video {
     background: transparent;
 }
 
-/* mixin
+/*
 -----------------------------------------*/
-/* contents
+/* Header
 -----------------------------------------*/
 .section__ttl {
     font-size: 32px;
