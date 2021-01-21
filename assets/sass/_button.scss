@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  outline: none;
+
+  &::before, &::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
+  }
+
+  -webkit-transition: all .6s;
+  transition: all .6s;
+
+  &::before, &::after {
+    -webkit-transition: all .6s;
+    transition: all .6s;
+  }
+}
