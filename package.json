@@ -1,0 +1,23 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "sass create",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2tomohiro/my-website.git"
+  },
+  "author": "tomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h2tomohiro/my-website/issues"
+  },
+  "homepage": "https://github.com/h2tomohiro/my-website#readme",
+  "keywords": [],
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
