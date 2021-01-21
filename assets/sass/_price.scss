@@ -32,7 +32,7 @@
   .inner {
     > div {
       width: 48%;
-      background: #fff;
+      background: $mainWhite;
       padding: 4rem;
       display: flex;
       -webkit-box-pack: justify;
@@ -80,7 +80,7 @@
         font-size: 1.75rem;
 
         a {
-          color: #333;
+          color: $mainGray;
           font-weight: bold;
         }
       }
@@ -91,15 +91,15 @@
     }
 
     .button-box a.button {
-      background-color: #424242;
-      border: 2px solid #424242;
-      color: #fff;
+      background-color: $buttonGray;
+      border: 2px solid $buttonGray;
+      color: $mainWhite;
       line-height: 60px;
 
       &:hover {
-        background-color: #fff;
-        border-color: #424242;
-        color: #424242;
+        background-color: $mainWhite;
+        border-color: $buttonGray;
+        color: $buttonGray;
       }
     }
   }

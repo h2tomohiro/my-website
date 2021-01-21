@@ -1,3 +1,6 @@
+
+/* WORKFLOW */
+
 .flow-parts02 {
   margin-bottom: 160px;
 
@@ -14,8 +17,8 @@
       justify-content: center;
       flex-direction: column;
       border-radius: 1000px;
-      background-color: #424242;
-      color: #fff;
+      background-color: $buttonGray;
+      color: $mainWhite;
       left: 5px;
       top: 50%;
       -webkit-transform: translateY(-50%);

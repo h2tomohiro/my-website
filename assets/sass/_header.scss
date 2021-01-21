@@ -1,3 +1,6 @@
+
+/* HEADER */
+
 @media only screen and (max-width: 767px) {
   .section__ttl {
     font-size: 24px;
@@ -30,8 +33,8 @@
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
-  background: $palette-mainBlack;
-  color: #fff;
+  background: $mainBlack;
+  color: $mainWhite;
 }
 
 @media only screen and (max-width: 767px) {
@@ -102,7 +105,7 @@
 .gnav__link {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: $mainWhite;
   transition: all 0.5s ease 0s;
 
   &:after {
@@ -110,7 +113,7 @@
     display: block;
     width: 0;
     height: 4px;
-    background: #fff;
+    background: $mainWhite;
     margin: 0 auto;
     border-radius: 10px;
     position: absolute;

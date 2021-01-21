@@ -40,15 +40,15 @@
       margin-top: 40px;
 
       .button {
-        background-color: #424242;
-        border: 2px solid #424242;
-        color: #fff;
+        background-color: $buttonGray;
+        border: 2px solid $buttonGray;
+        color: $mainWhite;
         line-height: 60px;
 
         &:hover {
-          background-color: #fff;
-          border-color: #424242;
-          color: #424242;
+          background-color: $mainWhite;
+          border-color: $buttonGray;
+          color: $buttonGray;
         }
       }
     }
@@ -142,15 +142,15 @@
       margin-top: 40px;
 
       .button {
-        background-color: #424242;
-        border: 2px solid #424242;
-        color: #fff;
+        background-color: $buttonGray;
+        border: 2px solid $buttonGray;
+        color: $mainWhite;
         line-height: 60px;
 
         &:hover {
-          background-color: #fff;
-          border-color: #424242;
-          color: #424242;
+          background-color: $mainWhite;
+          border-color: $buttonGray;
+          color: $buttonGray;
         }
       }
     }
