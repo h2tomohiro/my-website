@@ -6,52 +6,56 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
   font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+  letter-spacing: 0.1em;
 }
 
-.section__ttl {
-  font-size: 32px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: center;
-  margin: 0 0 48px;
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 
-  &:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: $palette-mainBlack;
-    margin: 8px auto;
-    border-radius: 16px;
+  &:before, &:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .section__ttl {
-    font-size: 24px;
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+figure {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all .6s ease;
+
+  &:hover {
+    transition: all .6s ease;
   }
 }
-
-.section__container {
-  width: 1024px;
-  margin: 0 auto;
-  padding: 90px 0;
-}
-
-@media only screen and (max-width: 1024px) {
-  .section__container {
-    width: 90%;
-    padding: 60px 0;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .section__container {
-    padding: 42px 0;
-  }
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -115,6 +119,47 @@ a {
 h5 {
   font-size: 1.5rem;
   color: #000;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 0px auto;
+  max-width: 1400px;
+
+  h4 {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+  .section__ttl {
+    font-size: 24px;
+  }
+}
+
+.section__container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section__container {
+    width: 90%;
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section__container {
+    padding: 42px 0;
+  }
 }
 
 /* button */
