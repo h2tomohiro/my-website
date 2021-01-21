@@ -1,0 +1,123 @@
+/* CONTACT */
+
+.top_contact_parts01 {
+  margin-bottom: 160px;
+
+  section {
+    padding: 7rem 0;
+    background: rgb(216, 216, 216);
+    text-align: center;
+
+    h5 {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+.contact-text {
+  margin-bottom: 30px;
+}
+
+.contact-box {
+  background: #fff;
+  max-width: 900px;
+  display: inline-block;
+  padding: 3rem 13rem;
+}
+
+.top_contact_parts01 {
+  .tel-wrap {
+    margin-bottom: 20px;
+  }
+
+  .tel {
+    p {
+      font-size: 2rem;
+      line-height: 1;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    span {
+      font-size: 2.5rem;
+    }
+  }
+
+  .fax {
+    p {
+      font-size: 1.5rem;
+      line-height: 1;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    span {
+      font-size: 2rem;
+    }
+  }
+
+  .mail-box a {
+    background: #444444;
+    display: block;
+    text-align: center;
+    padding: 20px 40px;
+    border: solid 2px #424242;
+    color: #fff;
+
+    &:hover {
+      background-color: #fff;
+      border-color: #424242;
+      color: #424242;
+    }
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .top_contact {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-box {
+    width: 100%;
+    padding: 3rem 4rem;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .contact-box {
+    padding: 2rem 2rem;
+  }
+
+  .top_contact_parts01 {
+    .tel {
+      p {
+        font-size: 1.25rem;
+      }
+
+      span {
+        font-size: 1.5rem;
+      }
+    }
+
+    .fax p {
+      font-size: 1rem;
+
+      span {
+        font-size: 1.25rem;
+      }
+    }
+
+    .reception {
+      font-size: 0.75rem;
+    }
+
+    .mail-box a {
+      padding: 0.5em 1em;
+
+      span {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

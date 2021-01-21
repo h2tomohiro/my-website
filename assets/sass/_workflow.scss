@@ -1,0 +1,50 @@
+.flow-parts02 {
+  margin-bottom: 160px;
+
+  .flow-box .box {
+    position: relative;
+    margin-bottom: 80px;
+
+    .num {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 1000px;
+      background-color: #424242;
+      color: #fff;
+      left: 5px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    dl {
+      background-color: #efefef;
+      width: calc(100% - 40px);
+      margin-left: auto;
+      padding: 30px 40px 30px 90px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 17px;
+      background-image: url(../images/img-flow-arrow.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      left: 50%;
+      bottom: -3rem;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}

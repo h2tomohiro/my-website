@@ -1,0 +1,199 @@
+
+/* PRICE */
+
+.top_contact_parts02 {
+  margin-bottom: 160px;
+
+  section {
+    padding: 7rem 0;
+    background: rgb(216, 216, 216);
+    text-align: center;
+  }
+
+  .inner {
+    max-width: 1200px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .flex-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .inner {
+    > div {
+      width: 48%;
+      background: #fff;
+      padding: 4rem;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .title-box {
+      margin-bottom: 15px;
+    }
+
+    .button-box p {
+      font-weight: bold;
+    }
+
+    .title-en {
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .contact-wrap h5, .download-wrap h5 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #a1abb7;
+      margin-bottom: 20px;
+    }
+
+    .contact-wrap .title-box p {
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+
+    .tel-box {
+      margin-bottom: 20px;
+
+      .tel {
+        font-size: 1.75rem;
+
+        a {
+          color: #333;
+          font-weight: bold;
+        }
+      }
+
+      p.hour {
+        font-size: 0.75rem;
+      }
+    }
+
+    .button-box a.button {
+      background-color: #424242;
+      border: 2px solid #424242;
+      color: #fff;
+      line-height: 60px;
+
+      &:hover {
+        background-color: #fff;
+        border-color: #424242;
+        color: #424242;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .top_contact_parts02 .inner {
+    display: block;
+
+    > div {
+      width: 100%;
+      padding: 4rem 3rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+    }
+
+    .contact-wrap {
+      margin-bottom: 40px;
+    }
+
+    .title-box {
+      width: 100%;
+    }
+
+    .tel-box {
+      width: 50%;
+    }
+
+    .button-box {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .download-wrap {
+      p {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .button-box {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .top_contact_parts02 .inner {
+    .tel-box, .button-box {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .top_contact_parts02 .inner {
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    .title-en {
+      font-size: 2rem;
+    }
+
+    .tel-box .tel {
+      font-size: 1.25rem;
+    }
+
+    .contact-wrap .title-box p {
+      font-size: 0.75rem;
+
+      br {
+        display: none;
+      }
+    }
+
+    .tel-box p.hour {
+      font-size: 0.5rem;
+    }
+
+    .button-box a.button {
+      font-size: 0.75rem;
+    }
+
+    .download-wrap p {
+      font-size: 0.75rem;
+
+      br {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.faq-parts {
+    margin-bottom: 160px;
+
+dt {
+    position: relative;
+    padding: 25px 40px 25px 70px;
+
+&::before {
+     content: "Q";
+     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+     font-weight: bold;
+     font-size: 1.125rem;
+     position: absolute;
+     left: 10px;
+     top: 17px;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -ms-flex-align: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background: #424242;
+     color: #FFF;
+ }
+}
+
+dd {
+    position: relative;
+    padding: 25px 20px 25px 70px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed #cccccc;
+
+&::before {
+     content: "A";
+     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+     font-weight: bold;
+     font-size: 1.125rem;
+     position: absolute;
+     left: 10px;
+     top: 17px;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -ms-flex-align: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+     color: #424242;
+ }
+}
+}

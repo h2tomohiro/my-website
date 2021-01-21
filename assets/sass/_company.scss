@@ -1,0 +1,44 @@
+/* COMPANY */
+
+.overview-table-parts01 {
+    margin-bottom: 160px;
+
+table {
+    width: 100%;
+
+tr {
+    border-bottom: 1px solid #dcdcdc;
+
+th {
+    padding: 30px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    width: 300px;
+}
+
+td {
+    padding-left: 20px;
+}
+}
+}
+}
+
+@media screen and (max-width: 767px) {
+    .overview-table-parts01 table tr {
+    th {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding-bottom: 0;
+        padding: 15px 20px 0 20px;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+        padding: 15px 0 15px 20px;
+    }
+}
+}
