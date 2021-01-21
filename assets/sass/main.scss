@@ -22,7 +22,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     display: block;
     width: 60px;
     height: 4px;
-    background: $palette-mainBlack;
+    background: $mainBlack;
     margin: 8px auto;
     border-radius: 16px;
   }
@@ -60,8 +60,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
-  background: $palette-mainBlack;
-  color: #fff;
+  background: $mainBlack;
+  color: $mainWhite;
 }
 
 @media only screen and (max-width: 767px) {
@@ -132,7 +132,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 .gnav__link {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: $mainWhite;
 
   /*font-weight: bold;*/
   transition: all 0.5s ease 0s;
@@ -142,7 +142,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     display: block;
     width: 0;
     height: 4px;
-    background: #fff;
+    background: $mainWhite;
     margin: 0 auto;
     border-radius: 10px;
     position: absolute;
@@ -179,7 +179,7 @@ body {
   padding: 0;
   font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
   font-weight: 500;
-  color: #333;
+  color: $simpleGray;
   line-height: 2.0;
   letter-spacing: 0.1em;
 }
@@ -312,15 +312,15 @@ h5 {
       margin-top: 40px;
 
       .button {
-        background-color: #424242;
-        border: 2px solid #424242;
-        color: #fff;
+        background-color: $buttonGray;
+        border: 2px solid $buttonGray;
+        color: $mainWhite;
         line-height: 60px;
 
         &:hover {
-          background-color: #fff;
-          border-color: #424242;
-          color: #424242;
+          background-color: $mainWhite;
+          border-color: $buttonGray;
+          color: $buttonGray;
         }
       }
     }
@@ -413,15 +413,15 @@ h5 {
       margin-top: 40px;
 
       .button {
-        background-color: #424242;
-        border: 2px solid #424242;
-        color: #fff;
+        background-color: $buttonGray;
+        border: 2px solid $buttonGray;
+        color: $mainWhite;
         line-height: 60px;
 
         &:hover {
-          background-color: #fff;
-          border-color: #424242;
-          color: #424242;
+          background-color: $mainWhite;
+          border-color: $buttonGray;
+          color: $buttonGray;
         }
       }
     }
@@ -574,7 +574,7 @@ h5 {
         padding: 30px 20px;
         font-size: 1rem;
         font-weight: bold;
-        color: #333;
+        color: $simpleGray;
         text-align: left;
         width: 300px;
       }
@@ -625,7 +625,7 @@ h5 {
 }
 
 .contact-box {
-  background: #fff;
+  background: $mainWhite;
   max-width: 900px;
   display: inline-block;
   padding: 3rem 13rem;
@@ -667,13 +667,13 @@ h5 {
     display: block;
     text-align: center;
     padding: 20px 40px;
-    border: solid 2px #424242;
-    color: #fff;
+    border: solid 2px $buttonGray;
+    color: $mainWhite;
 
     &:hover {
-      background-color: #fff;
-      border-color: #424242;
-      color: #424242;
+      background-color: $mainWhite;
+      border-color: $buttonGray;
+      color: $buttonGray;
     }
   }
 }
@@ -761,7 +761,7 @@ h5 {
   .inner {
     > div {
       width: 48%;
-      background: #fff;
+      background: $mainWhite;
       padding: 4rem;
       display: flex;
       -webkit-box-pack: justify;
@@ -809,7 +809,7 @@ h5 {
         font-size: 1.75rem;
 
         a {
-          color: #333;
+          color: $simpleGray;
           font-weight: bold;
         }
       }
@@ -820,15 +820,15 @@ h5 {
     }
 
     .button-box a.button {
-      background-color: #424242;
-      border: 2px solid #424242;
-      color: #fff;
+      background-color: $buttonGray;
+      border: 2px solid $buttonGray;
+      color: $mainWhite;
       line-height: 60px;
 
       &:hover {
-        background-color: #fff;
-        border-color: #424242;
-        color: #424242;
+        background-color: $mainWhite;
+        border-color: $buttonGray;
+        color: $buttonGray;
       }
     }
   }
@@ -955,8 +955,8 @@ h5 {
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background: #424242;
-      color: #FFF;
+      background: $buttonGray;
+      color: $mainWhite;
     }
   }
 
@@ -984,7 +984,7 @@ h5 {
       align-items: center;
       width: 40px;
       height: 40px;
-      color: #424242;
+      color: $buttonGray;
     }
   }
 }
@@ -1007,8 +1007,8 @@ h5 {
       justify-content: center;
       flex-direction: column;
       border-radius: 1000px;
-      background-color: #424242;
-      color: #fff;
+      background-color: $buttonGray;
+      color: $mainWhite;
       left: 5px;
       top: 50%;
       -webkit-transform: translateY(-50%);
@@ -1043,9 +1043,9 @@ h5 {
 }
 
 .footer {
-  background: $palette-mainBlack;
+  background: $mainBlack;
   padding: 24px 0;
-  color: #fff;
+  color: $mainWhite;
   text-align: center;
   font-weight: bold;
 }
