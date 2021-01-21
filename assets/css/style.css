@@ -1,4 +1,138 @@
 @charset "UTF-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif; }
+
+.section__ttl {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 0 48px; }
+  .section__ttl:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #212121;
+    margin: 8px auto;
+    border-radius: 16px; }
+
+@media only screen and (max-width: 767px) {
+  .section__ttl {
+    font-size: 24px; } }
+
+.section__container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 90px 0; }
+
+@media only screen and (max-width: 1024px) {
+  .section__container {
+    width: 90%;
+    padding: 60px 0; } }
+
+@media only screen and (max-width: 767px) {
+  .section__container {
+    padding: 42px 0; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+  letter-spacing: 0.1em; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+img {
+  width: 100%;
+  vertical-align: bottom; }
+
+figure {
+  margin: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ul, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  transition: all .6s ease; }
+  a:hover {
+    transition: all .6s ease; }
+
+.content-wrapper {
+  width: 90%;
+  margin: 0px auto;
+  max-width: 1400px; }
+  .content-wrapper h4 {
+    text-align: center;
+    font-size: 22px; }
+
+h5 {
+  font-size: 1.5rem;
+  color: #000; }
+
+/* button */
+.button {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  outline: none;
+  -webkit-transition: all .6s;
+  transition: all .6s; }
+  .button::before, .button::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: ''; }
+  .button::before, .button::after {
+    -webkit-transition: all .6s;
+    transition: all .6s; }
+
+#wrapper {
+  width: 100%;
+  overflow-x: hidden !important; }
+
+.team-member-image img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; }
+
+.about_info {
+  text-align: center; }
+
+.img-text-btn-right-broken .content-wrapper {
+  margin-top: 80px; }
+
+.img-text-btn-left-broken .content-wrapper {
+  margin-top: 110px; }
+
 @media only screen and (max-width: 767px) {
   .section__ttl {
     font-size: 24px; } }
@@ -665,145 +799,3 @@
 @media only screen and (max-width: 767px) {
   .footer {
     font-size: 12px; } }
-
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif; }
-
-.section__ttl {
-  font-size: 32px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: center;
-  margin: 0 0 48px; }
-  .section__ttl:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: #212121;
-    margin: 8px auto;
-    border-radius: 16px; }
-
-@media only screen and (max-width: 767px) {
-  .section__ttl {
-    font-size: 24px; } }
-
-.section__container {
-  width: 1024px;
-  margin: 0 auto;
-  padding: 90px 0; }
-
-@media only screen and (max-width: 1024px) {
-  .section__container {
-    width: 90%;
-    padding: 60px 0; } }
-
-@media only screen and (max-width: 767px) {
-  .section__container {
-    padding: 42px 0; } }
-
-html {
-  margin: 0;
-  padding: 0; }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
-  font-weight: 500;
-  color: #333;
-  line-height: 2.0;
-  letter-spacing: 0.1em; }
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-  *:before, *:after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
-
-h2, h3, h4, h5, p {
-  margin: 0;
-  padding: 0; }
-
-img {
-  width: 100%;
-  vertical-align: bottom; }
-
-figure {
-  margin: 0; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-ul, li, dl, dt, dd {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-a {
-  text-decoration: none;
-  transition: all .6s ease; }
-  a:hover {
-    transition: all .6s ease; }
-
-.content-wrapper {
-  width: 90%;
-  margin: 0px auto;
-  max-width: 1400px; }
-  .content-wrapper h4 {
-    text-align: center;
-    font-size: 22px; }
-
-h5 {
-  font-size: 1.5rem;
-  color: #000; }
-
-/* ボタンパーツ　共通 */
-.button {
-  display: inline-block;
-  width: 250px;
-  height: 60px;
-  text-align: center;
-  text-decoration: none;
-  line-height: 60px;
-  outline: none;
-  -webkit-transition: all .6s;
-  transition: all .6s; }
-  .button::before, .button::after {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    content: ''; }
-  .button::before, .button::after {
-    -webkit-transition: all .6s;
-    transition: all .6s; }
-
-#wrapper {
-  width: 100%;
-  overflow-x: hidden !important; }
-
-.team-member-image img {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%; }
-
-.about_info {
-  text-align: center; }
-
-.img-text-btn-right-broken .content-wrapper {
-  margin-top: 80px; }
-
-.img-text-btn-left-broken .content-wrapper {
-  margin-top: 110px; }
