@@ -1099,7 +1099,6 @@ h5 {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
-    /*上下左右中央寄せ*/
     text-align: center;
 
     p {
@@ -1132,6 +1131,10 @@ h5 {
   text-align: center;
 }
 
-.img-text-btn-right-broken .content-wrapper, .img-text-btn-left-broken .content-wrapper {
+.img-text-btn-right-broken .content-wrapper {
   margin-top: 80px;
+}
+
+.img-text-btn-left-broken .content-wrapper {
+  margin-top: 110px;
 }
