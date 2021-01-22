@@ -8,7 +8,7 @@ The target is people who want to create a web application or company website as 
 They would come to this site to consult or ask someone to make web application or website because they don't have enough human resources or knowledge to make it.
 
 # what information they want to find and when they are likely to return.
-They want to find how much it is to make what they need and what kind of application our company can make.
+They want to find how much it is and what kind of website our company can make.
 
 # Stack
 - HTML
