@@ -287,7 +287,8 @@ h5 {
 
 /* TOP-VIDEO */
 .wrap-video {
-  position: relative; }
+  position: relative;
+  margin-bottom: 160px; }
   .wrap-video video {
     width: 100%;
     height: 100%; }
