@@ -814,19 +814,21 @@ h5 {
       font-size: 0.75rem; } }
 
 /* COMPANY */
-.overview-table-parts01 table {
-  width: 100%; }
-  .overview-table-parts01 table tr {
-    border-bottom: 1px solid #dcdcdc; }
-    .overview-table-parts01 table tr th {
-      padding: 30px 20px;
-      font-size: 1rem;
-      font-weight: bold;
-      color: #333;
-      text-align: left;
-      width: 300px; }
-    .overview-table-parts01 table tr td {
-      padding-left: 20px; }
+.overview-table-parts01 {
+  margin-bottom: 100px; }
+  .overview-table-parts01 table {
+    width: 100%; }
+    .overview-table-parts01 table tr {
+      border-bottom: 1px solid #dcdcdc; }
+      .overview-table-parts01 table tr th {
+        padding: 30px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #333;
+        text-align: left;
+        width: 300px; }
+      .overview-table-parts01 table tr td {
+        padding-left: 20px; }
 
 @media screen and (max-width: 767px) {
   .overview-table-parts01 table tr th {
@@ -853,16 +855,31 @@ h5 {
     width: 100%;
     height: 100%; }
 
+@media only screen and (max-width: 767px) {
+  .google-maps {
+    position: relative;
+    width: 100%;
+    height: 500px; }
+    .google-maps iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; } }
+
 /* FOOTER */
 .footer {
+  width: 100%;
+  height: 70px;
   background: #212121;
   color: #fff;
   text-align: center;
-  font-weight: bold; }
+  height: 60px;
+  line-height: 60px; }
 
 @media only screen and (max-width: 767px) {
   .footer {
-    font-size: 12px; } }
+    height: 58px; } }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
