@@ -2,7 +2,7 @@
 /* OUT STRENGTH LEFT IMAGE */
 
 .img-text-btn-left-broken {
-  margin-bottom: 160px;
+  margin-bottom: 40px;
   position: relative;
   padding: 10vw 0 0 0;
 
@@ -55,8 +55,10 @@
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 767px) {
   .img-text-btn-left-broken {
+    margin-bottom: 0px;
+    padding: 0px;
     > figure {
       display: none;
     }
@@ -157,8 +159,9 @@
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 767px) {
   .img-text-btn-right-broken {
+    margin-bottom: 0px;
     > figure {
       display: none;
     }
