@@ -814,21 +814,19 @@ h5 {
       font-size: 0.75rem; } }
 
 /* COMPANY */
-.overview-table-parts01 {
-  margin-bottom: 160px; }
-  .overview-table-parts01 table {
-    width: 100%; }
-    .overview-table-parts01 table tr {
-      border-bottom: 1px solid #dcdcdc; }
-      .overview-table-parts01 table tr th {
-        padding: 30px 20px;
-        font-size: 1rem;
-        font-weight: bold;
-        color: #333;
-        text-align: left;
-        width: 300px; }
-      .overview-table-parts01 table tr td {
-        padding-left: 20px; }
+.overview-table-parts01 table {
+  width: 100%; }
+  .overview-table-parts01 table tr {
+    border-bottom: 1px solid #dcdcdc; }
+    .overview-table-parts01 table tr th {
+      padding: 30px 20px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #333;
+      text-align: left;
+      width: 300px; }
+    .overview-table-parts01 table tr td {
+      padding-left: 20px; }
 
 @media screen and (max-width: 767px) {
   .overview-table-parts01 table tr th {
@@ -842,10 +840,22 @@ h5 {
     width: 100%;
     padding: 15px 0 15px 20px; } }
 
+/* GOOGLE MAP */
+.google-maps {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 35%; }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 /* FOOTER */
 .footer {
   background: #212121;
-  padding: 24px 0;
   color: #fff;
   text-align: center;
   font-weight: bold; }
